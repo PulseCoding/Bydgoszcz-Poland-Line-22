@@ -3,6 +3,7 @@
 // ----------------------------------------------------//
 
 var modbus = require('jsmodbus');
+var fs = require('fs');
 var httpClient = require('node-rest-client').Client;
 var clientHttp = new httpClient();
 //Asignar host, puerto y otros par ametros al cliente Modbus
